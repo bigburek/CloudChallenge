@@ -35,23 +35,25 @@ Ensure you have the following prerequisites installed:
     dotnet build
     ```
     
-4.Running tests:
+4. Running tests:
+
     ```bash
-    dotnet test
+    dotnet build
     ```
+    
 
 ## Running the App
 
 To run the application, use the following command:
 
-```bash
-dotnet run
-```
+    ```bash
+    dotnet run
+    ```
 
 Visit http://localhost:{see port in console} in your web browser to access the application.
 Use the /stats/player/{fullPlayerName} endpoint
 
-## Techonologies Used
+## Technologies Used
 ASP NET CORE
 Swagger
 Json.NET library
