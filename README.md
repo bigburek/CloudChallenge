@@ -26,7 +26,7 @@ Ensure you have the following prerequisites installed:
 2. Navigate to the project directory:
 
     ```bash
-    cd CloudChallenge
+    cd CloudChallenge\CloudChallenge
     ```
 
 3. Build the project:
