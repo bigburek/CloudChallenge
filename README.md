@@ -38,7 +38,7 @@ Ensure you have the following prerequisites installed:
 4. Running tests:
 
     ```bash
-    dotnet build
+    dotnet test
     ```
     
 
@@ -46,18 +46,17 @@ Ensure you have the following prerequisites installed:
 
 To run the application, use the following command:
 
-    ```bash
-    dotnet run
-    ```
+```bash
+dotnet run
+```
 
-Visit http://localhost:{see port in console} in your web browser to access the application.
+Visit http://localhost:5000 in your web browser to access the application.
 Use the /stats/player/{fullPlayerName} endpoint
 
 ## Technologies Used
-ASP NET CORE
-Swagger
-Json.NET library
-CsvHelper library
-Moq library
-xUnit.net library
-
+    -ASP.NET Core
+    -Swagger
+    -Json.NET library
+    -CsvHelper library
+    -Moq library
+    -xUnit.net library
